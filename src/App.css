@@ -1,3 +1,13 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: small;
+}
+
 .App {
   text-align: center;
 }
@@ -32,7 +42,107 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+.botUl {
+  display: flex;
+  flex-wrap: wrap;
+  width: 97%;
+  margin: auto;
+  justify-content: space-around;
+}
+
+
+.botLi {
+  width: 21%;
+  list-style: none;
+  border: thin solid grey;
+  margin: 7px;
+  border-radius: 12px;
+  box-shadow: 10px 10px 8px #888888;
+  line-height: 1.5em;
+  word-break: break-all;
+  background-color: lightgray;
+  color: black;
+
+}
+
+span {
+  padding-right: 5px;
+}
+
+.deleteBtn {
+  margin: 2px;
+  background-color: red;
+  color: white;
+  border-radius: 50px;
+  padding: 5px;
+  width: 18%;
+  /* font-size: 1px; */
+}
+
+header {
+  width: 100%;
+  background-color: black;
+  padding: 10px;
+  font-size: 3vw;
+  font-weight: bolder;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.armyDiv {
+  min-height: 350px;
+  width: 97%;
+  background-color: gray;
+  margin: 10px auto 40px auto;
+  border-radius: 10px;
+}
+
+.LinkCollection {
+  color: black;
+  text-decoration: none;
+}
+
+.specDiv {
+  width: 70%;
+  background-color: #E1D9D1;
+  border: thin solid gray;
+  margin: 10px auto 40px auto;
+  height: 500px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.specContent {
+  text-align: start;
+  line-height: 2em;
+}
+
+.btnSpec>button {
+  margin: 10px 22px 10px 10px;
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  width: 120px;
+}
+
+.navSpec {
+  width: 200px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 20px;
+
+
 }
