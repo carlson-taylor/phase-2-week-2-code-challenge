@@ -25,7 +25,7 @@ function App() {
       <Routes>
         <Route
           exact
-          path="/"
+          path="/phase-2-week-2-code-challenge"
           element={
             <Botcolletion
               setBotspecsShown={setBotspecsShown}
