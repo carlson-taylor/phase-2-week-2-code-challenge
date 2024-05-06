@@ -11,10 +11,10 @@ function App() {
   const [botSpecsShown, setBotspecsShown] = useState({});
 
   useEffect(() => {
-    fetch("https://sammy-ck.github.io/db.json")
+    fetch("https://json-server-2-4qi6.onrender.com/bots")
       .then((resp) => resp.json())
       .then((data) => {
-        setBotcolletion(data.bots);
+        setBotcolletion(data);
       });
   }, []);
 
@@ -24,8 +24,8 @@ function App() {
       <Yourbotarmy armyBots={armyBots} setArmyBots={setArmyBots} />
       <Routes>
         <Route
-          exact
-          path="/phase-2-week-2-code-challenge"
+        
+          path="/phase-2-code-challange-bot-battlr"
           element={
             <Botcolletion
               setBotspecsShown={setBotspecsShown}
@@ -37,8 +37,8 @@ function App() {
           }
         />
         <Route
-          exact
-          path="/botspecs"
+    
+          path="/phase-2-code-challange-bot-battlr/botspecs"
           element={
             <BotSpecs
               botSpecsShown={botSpecsShown}
