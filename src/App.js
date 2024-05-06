@@ -25,7 +25,7 @@ function App() {
       <Routes>
         <Route
         
-          path="/phase-2-code-challange-bot-battlr"
+          path="/r"
           element={
             <Botcolletion
               setBotspecsShown={setBotspecsShown}
@@ -38,7 +38,7 @@ function App() {
         />
         <Route
     
-          path="/phase-2-code-challange-bot-battlr/botspecs"
+          path="/phase-2-week-2-code-challenge/botspecs"
           element={
             <BotSpecs
               botSpecsShown={botSpecsShown}
