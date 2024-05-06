@@ -36,7 +36,7 @@ function BotSpecs({ botSpecsShown, armyBots, setArmyBots }) {
 
       <div className="btnSpec">
         <button>
-          <NavLink className="navSpec btnSpec" to="/phase-2-code-challange-bot-battlr">
+          <NavLink className="navSpec btnSpec" to="/phase-2-week-2-code-challenge">
             Go Back
           </NavLink>
         </button>
