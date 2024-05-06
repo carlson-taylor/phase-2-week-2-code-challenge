@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/phase-2-week-2-code-challenge/static/css/main.b8b959ad.css",
-    "main.js": "/phase-2-week-2-code-challenge/static/js/main.e29ccc6e.js",
+    "main.js": "/phase-2-week-2-code-challenge/static/js/main.f73feaae.js",
     "static/js/453.52e1f0e5.chunk.js": "/phase-2-week-2-code-challenge/static/js/453.52e1f0e5.chunk.js",
     "index.html": "/phase-2-week-2-code-challenge/index.html",
     "main.b8b959ad.css.map": "/phase-2-week-2-code-challenge/static/css/main.b8b959ad.css.map",
-    "main.e29ccc6e.js.map": "/phase-2-week-2-code-challenge/static/js/main.e29ccc6e.js.map",
+    "main.f73feaae.js.map": "/phase-2-week-2-code-challenge/static/js/main.f73feaae.js.map",
     "453.52e1f0e5.chunk.js.map": "/phase-2-week-2-code-challenge/static/js/453.52e1f0e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8b959ad.css",
-    "static/js/main.e29ccc6e.js"
+    "static/js/main.f73feaae.js"
   ]
 }
